@@ -1,0 +1,125 @@
+@keyframes slide-in{
+    from{
+        transform: translateX(-200px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+
+@font-face {
+    font-family: handwriting;
+    src: url(supercartoon.ttf);
+  }
+  
+  @font-face {
+    font-family: jannight;
+    src: url(jannight.ttf);
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin:0%;
+}
+h1{
+    font-family: handwriting;
+    color:rgb(120, 66, 18);
+    margin-top:2%;
+    font-size: 3rem;
+}
+.buttons{
+    display: grid;
+    padding: 1%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap:10%;
+}
+button{
+    background-color: antiquewhite;
+    border:none;
+    padding: 1%;
+    box-shadow: none;
+    color: rgb(120, 66, 18);
+    font-weight: bold;
+    font-size: medium;
+    width: 100%;
+    height: 10%;
+}
+
+button:hover{
+    background-color: rgb(120, 66, 18);
+    border:none;
+    box-shadow: none;
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: medium;
+}
+
+hr{
+    background-color: #9F634B;
+    width: 100%;
+    height:1rem;
+    
+}
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    width: 100%;
+    gap: 1%;
+    row-gap: 10%;
+    padding: 2%;
+}
+
+.container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: translateY(-10px);
+}
+
+.container {
+    padding: 2% 2%;
+    text-align:center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    align-self: center;
+    transition: all 0.3s ease;
+    margin:1%;
+    max-width: 100%;
+    height: 400px;
+    word-wrap: break-word;
+    box-sizing: border-box;
+}
+
+.container p{
+    font-family: Trebuchet MS;
+    color:#000;
+    font-size: small;
+}
+.container h3{
+    font-family: Trebuchet MS;
+    color:#9F634B;
+}
+
+footer hr{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.trex{
+    padding: 5%;
+}
+.allo{
+    padding: 5%;
+}
+.dilo{
+    padding: 5%;
+}
+.tri{
+    padding: 5%;
+    width: 50%;
+    height: 70%;
+}

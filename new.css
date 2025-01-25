@@ -1,0 +1,80 @@
+@font-face {
+  font-family: handwriting;
+  src: url(supercartoon.ttf);
+}
+
+@font-face {
+  font-family: jannight;
+  src: url(jannight.ttf);
+}
+
+body {
+    background-color: #f9f5e8; /* Soft beige */
+    background-image: radial-gradient(circle, #cfc6ae 1px, transparent 1px),
+                      radial-gradient(circle, #cfc6ae 1px, transparent 1px);
+    background-size: 20px 20px; /* Dotted paper effect */
+    background-position: 0 0, 10px 10px;
+    font-family: BlackJack; /* Handwritten vibe */
+    color: #4a4a4a; /* Neutral text color */
+    line-height: 1.6;
+    margin: 0;
+    overflow-x: hidden;
+    padding: 20px;
+  }
+  
+  h1 {
+    background-color: #f1e4d1; /* Sticky note color */
+    color: #4a4a4a;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    font-family: handwriting;
+  }
+  
+  p {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 15px 0;
+    font-size: 2rem;
+    font-family: jannight;
+  }
+  
+  /* Additional Styles */
+  h1:not(:first-of-type) {
+    margin-top: 40px;
+    text-decoration: underline dashed #b3916b 2px;
+  }
+  
+  hr {
+    border: none;
+    border-top: 2px dashed #b3916b; 
+    margin: 20px 0;
+  }
+  
+  footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #7a7a7a;
+    margin-top: 30px;
+  }
+  
+  /* Decorative elements */
+
+  
+  /* Optional: Adjust responsive sizes */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    body {
+      padding: 10px;
+    }
+  }
+  
