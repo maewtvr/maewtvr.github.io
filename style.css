@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
+  color: #b4b4b4;
+  background: #16161a;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 15px 30px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ffcc00;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  color: #333;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+}
+
+.hero .scroll {
+  margin-top: 20px;
+  font-style: italic;
+}
+
+.timeline, .skills, .projects {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.timeline-item {
+  background: #fff;
+  margin: 15px 0;
+  padding: 20px;
+  border-left: 4px solid #ff9966;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  list-style: none;
+}
+
+.skills li {
+  background: ;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.projects .project-card {
+  background: #fff;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.projects .project-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #ff9966;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.projects .project-card a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: #fff;
+  margin-top: 50px;
+}
+
