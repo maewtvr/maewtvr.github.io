@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="style1.css">
 </head>
 <body>
+  <div class="page-container">
   <!-- Navigation -->
   <header>
     <nav class="navbar">
@@ -37,7 +38,19 @@
       I love learning by building - and I’m just getting started. 
       <br><br> Aside from coding and tech, I enjoy existing.
     </p>
+    <div class="social-icons">
+      <div class="icons">
+        <a href="https://www.linkedin.com/in/maryrose-dani-lazar-21664427b/" target="_blank">
+          <img src="./assets/linkedin.png" alt="LinkedIn Logo" width="40" height="40">
+        </a>
+      </div>
 
+      <div class="icons">
+        <a href="https://github.com/maewtvr" target="_blank">
+          <img src="./assets/github.png" alt="GitHub Logo" width="40" height="40">
+        </a>
+      </div>
+    </div>
   </section>
 
   <!-- Timeline Section
@@ -82,6 +95,7 @@
 
 
   <!-- skills -->
+   <div class="elements">
    <div class="skills-comp">
     <section id="skills" class="skills">
     <h1 class="title"> <span class='highlight'> # </span> skills </h1>
@@ -101,15 +115,14 @@
     </div>
     </section>
     </div>
-
+    </div>
   <!-- Projects Section -->
+   <div class="elements">
   <section id="projects" class="projects">
     <h1 class="title"> <span class='highlight'> # </span> projects </h1> <br>
-    <div class="project-container">
+    <div class="carousel" anchor-name="carousel">
+
       <div class="project-card">
-        <div class="project-img">
-          <img src="">
-        </div>
         <div class="project-name">
           <h2> Escape Room </h2>
         </div>
@@ -122,9 +135,6 @@
       </div>
 
       <div class="project-card">
-        <div class="project-img">
-          <img src="">
-        </div>
         <div class="project-name">
           <h2> My Portfolio </h2>
         </div>
@@ -134,18 +144,23 @@
           </p>
           <button type="button"> Explore more </button>
         </div>
-        
       </div>
+     
     </div>
 
   </section>
-
+  <br><br><br>
+  </div>
+  </div>
   <!-- Footer -->
    <div class="footer">
     <footer>
       <p> © MaryRose Dani Lazar</p>
     </footer>
    </div>
+
+    <div class="cursor"></div>
+    <script src="script.js"></script>
   
 </body>
 </html>
